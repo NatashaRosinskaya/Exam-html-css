@@ -1,0 +1,241 @@
+@media screen and (max-width:1024px){
+    .header{
+       height: 800px;
+    }
+    .nav_toggle{
+        display: inline-block;
+    }
+    .nav ul{
+        display: none;
+    }
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5%;
+        min-width: 200px;
+        height: 100%;
+        background-color: #eeeeee;
+        opacity: 0.8;        
+    }
+    .nav li{
+        margin-bottom: 20px;
+    }
+    .nav_link{
+        padding-right: 0px; 
+    }
+    .header_promo{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .promo_information{
+        margin-top: 30px;
+        align-items: center;
+    }
+    .circles_promo{
+        top: 60%;
+    }
+    .services_block_title{
+        font-size: 20px;
+    }
+  
+    .our_services{
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+     }
+    
+    .services_block{
+       grid-gap: 20px 0;
+    }
+    .line{
+        margin-top: 50px;
+    }
+    .our_advantages_numbers{
+        margin-left: 20px;
+        justify-content: center;
+    }
+    .logo_clients_all{
+        justify-content: center;
+        flex-direction: column;        
+    }
+    .logo_client img{
+        margin-right: 0px;
+    }
+    .logo_client:not(:last-child){
+        border-right: none;
+        margin-bottom: 40px;
+    }
+    .line.client{
+        margin-top: 0px;
+    }
+    .map_block_inf{
+         height: 50%;
+    }
+    .icon_sns{
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width:768px){
+   
+   .header{
+        height: 900px;
+ }
+    .promo_information{
+        margin-top: 20px;
+        text-align: center;
+}
+    .circles_promo{
+        top: 55%;
+}
+    .line{
+        margin: 40px 0;
+}
+.our_advantages_numbers{
+    margin-left: 0px;
+}
+    .our_advantages{
+        flex-direction: column;
+        text-align: center;
+}
+    .our_adv_inf_title{
+        margin-bottom: 20px;
+}
+    .our_adv_inf_orders_title,
+    .our_adv_numb_information{
+        margin: 25px 0 20px 0;
+    }
+    .our_adv_inf_orders_title_discr{
+        margin-bottom: 15px;
+    }
+    .our_adv_numb_disc{
+        flex-direction: column;
+    }
+    .line.adv{
+        margin: 40px 0 20px 0;
+    }
+    .map_information{
+        margin-top: 40px;
+    }
+    .map_block_inf{
+        height: 40%;
+   }
+   .map_block_title{
+    margin-bottom: 10px;
+}
+    .map_block_discription{
+        margin-bottom: 10px;
+    }
+    .map_block_btn{
+        margin-top: 10px;
+    }
+    .footer{
+        margin: 40px
+    }
+    .footer_all_information{
+        flex-direction: column-reverse;
+    }
+    .footer_sale{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .icon_sns{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:425px){
+    .logo{
+       flex-direction: column;
+       align-items: flex-end;
+       padding-top: 20px;
+    }
+    .header{
+        height: 650px;
+        margin-bottom: 40px;
+    }
+    .nav ul{
+        min-width: 100px;     
+    }
+    .nav{
+        margin: 20px 0;
+    }
+    .promo_image img{
+        width: 90%;
+        height: 90%;
+    }    
+   .promo_inf_title{
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+     .promo_inf_discription{
+    margin-bottom: 20px;
+}
+    .promo_inf_btn{
+        width: 180px;
+    }
+    .our_services{    
+        grid-template-columns: 1fr;
+    }
+    .services_block{
+        justify-items: center;
+    }
+    .services_block_discription{
+        text-align: center;
+    }
+    .our_adv_inf_title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .our_adv_inf_orders_title_discr:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .our_adv_inf_orders_title,
+    .our_adv_numb_information{
+        margin: 15px 0 10px 0;
+    }
+    .map_block_inf{
+        height: 30%;
+   }
+   .map_block_title{
+    margin-bottom: 5px;
+}
+    .map_block_discription{
+        margin-bottom: 5px;
+    }
+    .map_block_btn{
+        margin-top: 5px;
+        width: 140px;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .icon{
+        line-height: 60px;
+        width: 60px;
+        height: 60px;        
+    }
+}
+@media screen and (max-width:375px){
+    .circles_promo{
+        top: 40%;
+    }
+    .header{
+        height: 700px;       
+    }
+    .services_block{
+        grid-template-columns: 200px;
+    }
+    .our_adv_numb_image img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:320px){
+    .our_services{
+        grid-gap: 30px;
+    }
+    .map_block_inf{
+        width: 300px;
+   }
+}
